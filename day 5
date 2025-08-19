@@ -1,0 +1,121 @@
+# def my_function():
+#   print("Hello from a function")
+# my_function()
+
+
+
+# def my_function(fnum, lnum):
+#   print(fnum + "" + lnum)
+# my_function("21", "22")
+
+
+
+# def my_function(x):
+#   return 5 + x
+
+# print(my_function(3))
+
+
+
+
+
+# def my_function(a,b,c):
+#     a= 2
+#     b = 2
+#     c = a+b
+#     print(c)
+
+# my_function(a=0, b=0, c=0)
+
+
+
+
+
+# n1 = int(input("Enter a number"))
+# n2 = int(input("Enter a number"))
+# def my_function(n1,n2):
+#     sum=n1+n2
+#     print("sum",sum)
+
+#     my_function(n1,n2)
+
+
+
+
+
+# def add_number(a=2, b=3):
+#     sum=a+b
+#     print("sum",sum)
+
+#     add_number(a=3)
+
+
+
+
+
+
+# def display_name(f_name,l_name):
+#     print("first name:", f_name)
+#     print("last name:", l_name)
+
+#     display_name(l_name="sir", f_name="rolex")
+
+
+
+
+
+
+# def find_sum(*numbers):
+#     result = 0
+
+#     for num in numbers:
+#         result = result + num
+
+#     print("sum = ", result)
+
+# find_sum(1, 2, 3)
+# find_sum(3, 3)
+
+
+
+# def find_product(*numbers):
+#     product = 1
+#     for num in numbers:
+#         product *= num
+#     print("Product:", product)
+
+# find_product(1, 4)
+# find_product(3,2)
+
+
+
+
+# name =str(input("Enter name: "))
+# age = str(input("Enter age: "))
+# marks = str(input("Enter marks: "))
+
+# def display_info(name, age, marks):
+#     print("Name:", name)
+#     print("Age:", age)
+#     print("Marks:",marks)
+# display_info(name,age,marks)
+
+
+
+
+# def rectangle_area(length, width):
+#        return length * width
+# a = int(input("Enter length of rectangle:"))
+# b = int(input("Enter width of rectangle:"))
+
+# area = rectangle_area(a, b)
+# print(f"The area of the rectangle is: {area}")
+
+
+
+
+i = 1
+while i<= 20:
+    if i % 2==0:
+        print(i)
+    i += 1

@@ -1,0 +1,80 @@
+# x = lambda a : a + 10
+# print(x(5))
+
+
+
+# x = lambda a, b : a * b
+# print(x(5, 6))
+
+
+
+# x = lambda a, b, c : a + b + c
+# print(x(5, 5, 5))
+
+
+# def square(n):
+#     return n*n
+# number = (1,2,3,4)
+# result = list(map(square,number))
+# print(result)
+
+
+# def square(n):
+#     return n*n
+# number = (1,2,3,4)
+# result = map(square,number)
+# print(result)
+
+# result=list(result)
+# print(result)
+
+
+
+# numbers=(1,2,3,4)
+# result = map(lambda x: x*x, numbers)
+# print(set(result))
+
+
+
+
+# using filter
+
+# def check_even(number):
+#     if number % 2 == 0:
+#         return True
+#     return False
+# numbers=[1,2,3,4,5]
+
+# even_numbers_iterator = filter(check_even,numbers)
+# even_numbers = list(even_numbers_iterator)
+# print(even_numbers)
+
+
+
+# using lambda
+
+# numbers=[1,2,3,4,5,6,7,8,9,10]
+# even_numbers_iterator = filter(lambda x: x % 2==0,numbers)
+# even_numbers = list(even_numbers_iterator)
+# print(even_numbers)
+
+
+# # even_numbers = list(even_numbers_iterator)
+# def add (x,y):
+#     return x + y
+# a=[5,5]
+# result=reduce(add,a)
+# print(result)
+
+
+
+from functools import reduce
+a=[5,5]
+result =reduce(lambda x,y: x+y,a)
+print(result)
+
+
+
+
+
+
